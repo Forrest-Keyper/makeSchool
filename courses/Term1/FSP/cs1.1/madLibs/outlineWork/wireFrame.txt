@@ -1,7 +1,9 @@
 __--**MadLibs Task Orientation**--__
 
 º   wireFrame
-
+    {} = program/function etc.
+    () = variables, outputs, process variables, etc.
+    [] = objects, possibly additional in future
 
     {
 
@@ -10,9 +12,31 @@ __--**MadLibs Task Orientation**--__
     place inputs to sentences;
 
     statement (sentence, paragraph, story);
-
+{
+    [words]
         (scripted_wordBank);
+
+    [sentences]
+        (scripted_wordBank);
+
+    [paragraphs]
+        (scripted_wordBank);
+
+    [stories]
+        (scripted_wordBank);
+
+
+    {user_input}
+
+        (storyType_input);
+
+    {user_input}
+
+        (user_input);
         (playerBank);
 
-        (Statement);
-    };
+    {statement}
+
+        (statement);
+
+};
