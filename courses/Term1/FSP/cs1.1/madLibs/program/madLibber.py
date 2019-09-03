@@ -5,8 +5,10 @@ class statementClass:
     print(statements['sentence'])
     """establishing outline of class for our program"""
 
-    def __init__(self, name):
+    def __init__(self, storyForm, ):
         self.name = name
+
+    self.storyForm =  
 
     def sentence_Lib_1(self, sentence_Lib_1):
 

@@ -2,18 +2,34 @@ __--**MadLibs Task Orientation**--__
 //outlining madLibs options etc.
 º   Statement Blocks
 
+adjective = 0;
+adverb = 1;
+noun = 2;
+verb = 3;
+
+
+
 [sentence]
     length:
         3 blanks;
 
-        "Jimmy decided to [0[0]] while he waited for his [0[1]] to make a [0[2]] pi."
+    {0}    "Jimmy decided to [0[0]] while he waited for his [0[1]] to make a [0[2]] pi."
 
 
             0: verb;
+                »dictionary key = ['verb':'0']
             1: noun;
+                »dictionary key = ['noun':'1']
             2: adverb;
+                »dictionary key = ['adverb':'2']
 
-        "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
+
+
+            [0(verb[0])]
+            [1(noun[1])]
+            [2(adverb[2])]
+
+    {1}    "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
 
 
             0: noun;
@@ -21,7 +37,7 @@ __--**MadLibs Task Orientation**--__
             2: verb;
 
 
-        "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
+    {2}    "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
 
             0: verb;
             1: adjective;
@@ -32,7 +48,7 @@ __--**MadLibs Task Orientation**--__
     length:
         6 blanks;
 
-        "Jimmy "
+    {0}    "Jimmy "
 
             0:
             1:
@@ -42,7 +58,7 @@ __--**MadLibs Task Orientation**--__
             5:
 
 
-        "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
+    {1}    "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
 
             0: noun;
             1: adjective;
@@ -51,7 +67,7 @@ __--**MadLibs Task Orientation**--__
             4.
             5.
 
-        "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
+    {2}    "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
 
             0: verb;
             1: adjective;
@@ -66,7 +82,7 @@ __--**MadLibs Task Orientation**--__
     length:
         9 blanks;
 
-        "Jimmy decided to [0[0]] while he waited for his [0[1]] to make a [0[2]] pi."
+    {0}    "Jimmy decided to [0[0]] while he waited for his [0[1]] to make a [0[2]] pi."
 
             0: verb;
             1: noun;
@@ -78,7 +94,7 @@ __--**MadLibs Task Orientation**--__
             7.
             8.
 
-        "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
+    {1}    "While [1[0]] demolished the [1[1]] spaghetti, a raptor bunny [1[2]] with his friend Reptar."
 
             1:
             0: noun;
@@ -91,7 +107,7 @@ __--**MadLibs Task Orientation**--__
             7.
             8.
 
-        "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
+    {2}    "Suddenly green lantern [2[0]] his [2[1]] potato through the button of a [2[2]], striking down the devilish deedster dan akroyd."
             2:
             0: verb;
             1: adjective;
