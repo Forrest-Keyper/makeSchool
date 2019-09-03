@@ -1,0 +1,18 @@
+__--**MadLibs Task Orientation**--__
+
+º   wireFrame
+
+
+    {
+
+    accept user inputs;
+
+    place inputs to sentences;
+
+    statement (sentence, paragraph, story);
+
+        (scripted_wordBank);
+        (playerBank);
+
+        (Statement);
+    };
