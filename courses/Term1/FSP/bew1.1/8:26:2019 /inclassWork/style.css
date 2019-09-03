@@ -1,0 +1,15 @@
+.green{
+    color:green;
+    font-size:64px;
+}
+#large{
+    font-family: cursive;
+}
+#petals{
+    color: rgb(120, 230, 170);
+    font-size:42px;
+}
+
+body{
+    font-size:25px;
+}
